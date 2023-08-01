@@ -1,4 +1,9 @@
-import { Box, Text, TextInput, TextInputProps } from '@luancardosoti-ignite-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@luancardosoti-ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -35,5 +40,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }
